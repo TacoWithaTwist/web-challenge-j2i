@@ -116,3 +116,34 @@ a:hover{
     margin-top: 8px;
     display: block;
 }
+.collection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: 100px 0px 100px 0px;
+}
+.collection-image-container{
+    position: relative;
+}
+.collection-text{
+    position: absolute;
+    top: 30%;
+    display: grid;
+}
+.shop{
+    margin-top: 30px ;
+}
+.collection-text.left{
+    right: 10px;
+}
+.collection-text.right{
+    left:40px
+}
+.collection-text span{
+    display: block;
+}
+.collection-images{
+    width: 400px;
+    height: auto;
+}

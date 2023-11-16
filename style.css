@@ -13,11 +13,12 @@ body{
     margin-left: 20rem;
 }
 .nav-links{
-    margin-right: 30rem;
+    margin-right: 40rem;
     display: flex;
     gap: 10px;
 }
 a{
+    font-size: 0.75rem;
     text-decoration: none;
     color: gray;
 }
@@ -31,21 +32,25 @@ a:hover{
     justify-content: center;
 }
 .intro{
-    background-color: #E5E4E2;
-    height: 20rem;
+    background-color: #F5F5F5;
+    height: 30rem;
 }
 .intro-content{
     position: absolute;
     left: 250px;
-    width: 400px;
+    width: 450px;
     top:150px;
 }
 #gray-pants{
     top: 0px;
     right: 0px;
-    width:auto;
-    height: 400px;
+    width: 50vw ;
+    height: auto;
     position: absolute;
+}
+#sale-off{
+    font-weight: bolder;
+    font-size: 2rem;
 }
 .sous-titres{
     writing-mode: sideways-lr;
@@ -72,19 +77,42 @@ a:hover{
 .trending{
     display: flex;
     flex: 1;
-    gap: 400px;
+    gap: 100px;
     align-items: center;
 }
 .trending-category{
     display: grid;
-    grid-template-columns: repeat(4,50px) 150px 100px;
+    grid-template-columns: repeat(4,50px) 450px 100px;
     gap: 30px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    float: auto;
 }
 .items{
     display: grid;
-    grid-template-columns: 200px 200px 200px;
+    grid-template-columns: 300px 300px 300px;
+    gap: 10px;
 }
 .trending-image{
-    width: 200px;
-    height: auto;
+    width: auto;
+    height: 325px;
+    border-bottom:solid black 2px ;
+}
+.image-container{
+    position: relative;
+    width: 254px;
+    height: 325px;
+}
+.text-container{
+    position: absolute;
+    font-size: 14px;
+    bottom: 0px;
+    left: 8px;
+    font-weight:100;
+    padding: 4px 20px 4px 20px;
+    background-color: white;
+}
+.item-name{
+    margin-top: 8px;
+    display: block;
 }

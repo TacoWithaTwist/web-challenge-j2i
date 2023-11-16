@@ -2,6 +2,14 @@ body{
     height: 100vh;
     margin: 0 auto;
 }
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/*Navigation Section*/
+
 .header-nav{
     display: flex;
     align-items: center;
@@ -26,32 +34,9 @@ a:hover{
     text-decoration: underline;
     color: black;
 }
-.container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-.intro{
-    background-color: #F5F5F5;
-    height: 30rem;
-}
-.intro-content{
-    position: absolute;
-    left: 250px;
-    width: 450px;
-    top:150px;
-}
-#gray-pants{
-    top: 0px;
-    right: 0px;
-    width: 50vw ;
-    height: auto;
-    position: absolute;
-}
-#sale-off{
-    font-weight: bolder;
-    font-size: 2rem;
-}
+
+/*Side titles*/
+
 .sous-titres{
     writing-mode: sideways-lr;
     font-weight: bold;
@@ -74,6 +59,38 @@ a:hover{
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
+/*Intro Section*/
+
+
+
+.intro{
+    background-color: #F5F5F5;
+    height: 30rem;
+}
+.intro-content{
+    position: absolute;
+    left: 250px;
+    width: 450px;
+    top:150px;
+}
+#gray-pants{
+    top: 0px;
+    right: 0px;
+    width: 50vw ;
+    height: auto;
+    position: absolute;
+}
+#sale-off{
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+
+/*Trending Section*/
+
+
+
 .trending{
     display: flex;
     flex: 1;
@@ -93,9 +110,13 @@ a:hover{
     grid-template-columns: 300px 300px 300px;
     gap: 10px;
 }
+.items>div{
+    width: 254px;
+    flex: 1;
+}
 .trending-image{
-    width: auto;
-    height: 325px;
+    width: 254px;
+    height: auto;
     border-bottom:solid black 2px ;
 }
 .image-container{
@@ -116,15 +137,25 @@ a:hover{
     margin-top: 8px;
     display: block;
 }
+
+
+
+/*Collection Section*/
+
+
+
+
 .collection{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    gap: 10px;
     margin: 100px 0px 100px 0px;
 }
 .collection-image-container{
     position: relative;
+    width: 400px;
+    flex: 1;
 }
 .collection-text{
     position: absolute;
@@ -135,7 +166,7 @@ a:hover{
     margin-top: 30px ;
 }
 .collection-text.left{
-    right: 10px;
+    right: 60px;
 }
 .collection-text.right{
     left:40px
@@ -144,6 +175,14 @@ a:hover{
     display: block;
 }
 .collection-images{
-    width: 400px;
+    width: 410px;
+    height: auto;
+}
+
+/*Featured Section*/
+
+
+.featured-image{
+    width: 254px;
     height: auto;
 }

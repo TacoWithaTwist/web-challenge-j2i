@@ -179,7 +179,14 @@ a:hover{
     height: auto;
 }
 
+
+
+
 /*Featured Section*/
+
+
+
+
 .featured-item{
     display: flex;
     align-items: center;
@@ -187,16 +194,127 @@ a:hover{
 }
 .featured{
     display: grid;
-    grid-template-columns: 326px 326px 326px;
-    grid-template-rows: 326px 326px;
-    gap: 5px;
+    grid-template-columns: 375px 375px 375px;
+    grid-template-rows: 420px 420px;
 }
 .featured-container{
-    width: 254px;
-    height: 254px;
-    overflow: hidden;
+    width: 300px;
+    height: 300px;
+}
+.featured-image-container{
+    position: relative;
+    height: 300px;
+}
+.sale-status{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background-color: black;
+    color: #F5F5F5;
+    padding: 5px;
+
+}
+.featured-text{
+    box-shadow: 1px 1px 1px gainsboro,-1px -1px gainsboro;
+}
+.featured-text .item-name{
+    font-size: 24px;
+    margin: 0;
 }
 .featured-image{
-    width: 254px;
+    width: 300px;
+    max-height: 300px;
+}
+.featured-line{
+    border: solid gainsboro 1px;
+    margin-left: 10%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 75%;
+}
+.featured-cart{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.featured-cart img{
+    width: 15px;
     height: auto;
 }
+.featured-cart span{
+    font-size: 10px;
+}
+.cart,.like-button,.comment-button{
+    border:none;
+    background: none;
+}
+.cart-container{
+    justify-self: flex-end;
+    margin: 0 auto;
+}
+.featured-cart>div>span{
+    margin-bottom: 5px;
+}
+
+/* Subscribe card*/
+
+.subscribe-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F5F5F5;
+    margin: 150px 0px 75px 225px;
+    width: 1050px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.text>div>span{
+    margin: 15px;
+    text-align: center;
+    display: block;
+}
+.middle-subscribe{
+    display: flex;
+    gap: 50px;
+}
+.send{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1em;
+    text-align: center;
+    margin:0 auto;
+    height: 54px;
+    width: 180px;
+    border: none;
+    color: #F5F5F5;
+    background-color: #1B1B1B;
+}
+.paper-plane{
+    width: 25px;
+    height: auto;
+    margin-right:25px ;
+}
+.subscribe1-image,.subscribe2-image{
+    background-color: #F5F5F5;
+    width: 280px;
+    height: auto;
+}
+.email{
+    padding-left:20px;
+    border: none;
+    height: 55px;
+    width: 280px;
+    margin-right: 20px ;
+}
+/*Story Section*/
+.story{
+    
+}
+

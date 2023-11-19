@@ -6,6 +6,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    gap: 20px;
 }
 
 /*Navigation Section*/
@@ -314,7 +315,36 @@ a:hover{
     margin-right: 20px ;
 }
 /*Story Section*/
-.story{
-    
+.our-story{
+    display: flex;
+    gap: 150px;;
 }
+.story{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.story-image{
+    width: 300px;
+    height: 250px;
+}
+.story-image-container{
+    position: relative;
+    border-left: solid black 2px;
+}
+.story-text-container{
+    margin: 0 auto;
+    padding-left: 10px;
+    text-align: center;
+    height: 150px;
+    width: 30px;
+    writing-mode: sideways-lr;
+    position: absolute;
+    left: 0px;
+    top: 25%;
+    background-color: #FAFAFA;
+}
+
+/*Instagram Feed*/
+
 

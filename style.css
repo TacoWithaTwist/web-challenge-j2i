@@ -180,8 +180,22 @@ a:hover{
 }
 
 /*Featured Section*/
-
-
+.featured-item{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+.featured{
+    display: grid;
+    grid-template-columns: 326px 326px 326px;
+    grid-template-rows: 326px 326px;
+    gap: 5px;
+}
+.featured-container{
+    width: 254px;
+    height: 254px;
+    overflow: hidden;
+}
 .featured-image{
     width: 254px;
     height: auto;

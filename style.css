@@ -386,3 +386,20 @@ a:hover{
     width: 170.75px;
     height: auto;
 }
+
+
+/*Category Section*/
+
+
+.category{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.things-container{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}

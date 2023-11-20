@@ -348,6 +348,7 @@ a:hover{
     left: 0px;
     top: 15%;
     background-color: #FAFAFA;
+    border-left:solid black 2px ;
 }
 
 /*Instagram Feed*/
@@ -396,10 +397,39 @@ a:hover{
     justify-content: center;
     align-items: center;
     gap: 100px;
+    margin-bottom: 100px;
 }
-
+.category-title{
+    font-size: 24px;
+    font-weight: 400;
+}
 .things-container{
     display: flex;
     flex-direction: column;
     gap: 15px;
+}
+
+
+
+/*Information Section*/
+
+
+
+.information{
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.information>div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.information-title{
+    font-size: 24px;
+    font-weight: 400;
+}
+.information-link{
+    
 }

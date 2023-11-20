@@ -6,7 +6,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 20px;
+
 }
 
 /*Navigation Section*/
@@ -199,7 +199,7 @@ a:hover{
     grid-template-rows: 420px 420px;
 }
 .featured-container{
-    width: 300px;
+    width: 250px;
     height: 300px;
 }
 .featured-image-container{
@@ -218,13 +218,18 @@ a:hover{
 .featured-text{
     box-shadow: 1px 1px 1px gainsboro,-1px -1px gainsboro;
 }
+.featured-cart>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .featured-text .item-name{
     font-size: 24px;
     margin: 0;
 }
 .featured-image{
-    width: 300px;
-    max-height: 300px;
+    width: 250px;
+    height: 300px;
 }
 .featured-line{
     border: solid gainsboro 1px;
@@ -265,7 +270,7 @@ a:hover{
     justify-content: space-between;
     align-items: center;
     background-color: #F5F5F5;
-    margin: 150px 0px 75px 225px;
+    margin: 150px 0px 75px 175px;
     width: 1050px;
 }
 .text{
@@ -327,10 +332,10 @@ a:hover{
 .story-image{
     width: 300px;
     height: 250px;
+    border-left: solid black 2px;
 }
 .story-image-container{
     position: relative;
-    border-left: solid black 2px;
 }
 .story-text-container{
     margin: 0 auto;
@@ -341,10 +346,43 @@ a:hover{
     writing-mode: sideways-lr;
     position: absolute;
     left: 0px;
-    top: 25%;
+    top: 15%;
     background-color: #FAFAFA;
 }
 
 /*Instagram Feed*/
-
-
+.insta-container{
+    position: relative;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.insta-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    position: absolute;
+    top: 35%;
+    left: 40%;
+    width: 250px;
+    height: 50px;
+    background-color: #1B1B1B;
+    opacity: 80%;
+}
+.insta-link>a{
+    color: white;
+    font-size: 12px;
+    font-weight: 300;
+}
+.insta-svg{
+    width: 25px;
+    height: auto;
+}
+.instagram-reel{
+    display: flex;
+    width: 100%;
+}
+.reel-image{
+    width: 170.75px;
+    height: auto;
+}

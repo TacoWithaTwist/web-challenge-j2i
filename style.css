@@ -433,6 +433,10 @@ a:hover{
     font-size: 24px;
     font-weight: 400;
 }
+.information-svg{
+    width: 15px;
+    height: auto;
+}
 .information-link{
     
 }

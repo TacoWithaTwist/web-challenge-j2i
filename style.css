@@ -195,7 +195,7 @@ a:hover{
 }
 .featured{
     display: grid;
-    grid-template-columns: 375px 375px 375px;
+    grid-template-columns: 325px 325px 325px;
     grid-template-rows: 440px 440px;
 }
 .featured-container{
@@ -263,6 +263,10 @@ a:hover{
 .featured-cart>div>span{
     margin-bottom: 5px;
 }
+.line-through{
+    text-decoration: line-through;
+    opacity: 50%;
+}
 
 /* Subscribe card*/
 
@@ -271,7 +275,7 @@ a:hover{
     justify-content: space-between;
     align-items: center;
     background-color: #F5F5F5;
-    margin: 150px 0px 75px 175px;
+    margin: 100px 0px 100px 175px;
     width: 1050px;
 }
 .text{
@@ -351,6 +355,8 @@ a:hover{
     background-color: #FAFAFA;
     border-left:solid black 2px ;
 }
+
+
 
 /*Instagram Feed*/
 .insta-container{

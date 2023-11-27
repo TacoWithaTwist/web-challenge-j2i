@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+*{
+    font-family: poppins;
+}
 body{
     height: 100vh;
     margin: 0 auto;
@@ -9,7 +13,9 @@ body{
 
 }
 
+
 /*Navigation Section*/
+
 
 .header-nav{
     display: flex;
@@ -36,7 +42,9 @@ a{
     color: black;
 }
 
+
 /*Side titles*/
+
 
 .sous-titres{
     writing-mode: sideways-lr;
@@ -61,8 +69,8 @@ a{
     margin-bottom: 10px;
 }
 
-/*Intro Section*/
 
+/*Intro Section*/
 
 
 .intro{
@@ -89,7 +97,6 @@ a{
 
 
 /*Trending Section*/
-
 
 
 .trending{
@@ -140,10 +147,7 @@ a{
 }
 
 
-
 /*Collection Section*/
-
-
 
 
 .collection{
@@ -181,11 +185,7 @@ a{
 }
 
 
-
-
 /*Featured Section*/
-
-
 
 
 .featured-item{
@@ -268,7 +268,9 @@ a{
     opacity: 50%;
 }
 
+
 /* Subscribe card*/
+
 
 .subscribe-card{
     display: flex;
@@ -324,7 +326,11 @@ a{
     width: 280px;
     margin-right: 20px ;
 }
+
+
 /*Story Section*/
+
+
 .our-story{
     display: flex;
     gap: 150px;;
@@ -357,8 +363,9 @@ a{
 }
 
 
-
 /*Instagram Feed*/
+
+
 .insta-container{
     position: relative;
     margin-top: 100px;
@@ -451,7 +458,6 @@ a{
 .information>div>a{
     display: inline;
 }
-
 
 
 /*Footer*/
